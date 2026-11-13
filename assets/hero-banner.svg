@@ -1,0 +1,183 @@
+<svg viewBox="0 0 1200 320" width="1200" height="320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amanulla Shaikh - Founder &amp; Full-Stack Architect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0316"/>
+      <stop offset="55%" stop-color="#0d0221"/>
+      <stop offset="100%" stop-color="#070118"/>
+    </linearGradient>
+    <radialGradient id="neb" cx="50%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="35%" stop-color="#6d28d9" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#0d0221" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="neb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ede9fe"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#2e1065" stop-opacity="0.2"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d8c8ff"/>
+      <stop offset="45%" stop-color="#a78bfa"/>
+      <stop offset="75%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="hr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#87CEEB" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#cbd5ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .st { animation-name: tw; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+      @keyframes tw { 0%,100% { opacity: var(--b); } 50% { opacity: 1; } }
+      .breathe { animation: br 7s ease-in-out infinite; transform-origin: 600px 30px; }
+      @keyframes br { 0%,100% { opacity:.85; transform: scale(1); } 50% { opacity:1; transform: scale(1.06); } }
+      .pulse { animation: pu 4.5s ease-in-out infinite; transform-origin: 600px 66px; }
+      @keyframes pu { 0%,100% { transform: scale(1); opacity:.95 } 50% { transform: scale(1.09); opacity:1 } }
+      .ring { animation: rot 26s linear infinite; transform-origin: 600px 66px; }
+      .ring2 { animation: rot 18s linear infinite reverse; transform-origin: 600px 66px; }
+      @keyframes rot { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
+      .spark { animation: sp 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes sp { 0%,100% { opacity:0; transform: scale(.4) rotate(0deg) } 50% { opacity:1; transform: scale(1) rotate(45deg) } }
+      .word { animation: fade 1.4s ease-out both; }
+      @keyframes fade { from { opacity:0; } to { opacity:1; } }
+      .sub { animation: fade 1.6s ease-out .5s both; }
+      .sweep { animation: sweep 5.5s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(-120px); opacity:0 } 35% { opacity:.9 } 70% { opacity:0 } 100% { transform: translateX(120px); opacity:0 } }
+      .meteor { animation-name: fly; animation-timing-function: linear; animation-iteration-count: infinite; }
+      @keyframes fly { 0% { transform: translate(0,0); opacity:0 } 8% { opacity:1 } 55% { opacity:1 } 100% { transform: translate(520px,420px); opacity:0 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <ellipse class="breathe" cx="600" cy="20" rx="520" ry="190" fill="url(#neb)" filter="url(#soft)"/>
+  <ellipse cx="250" cy="250" rx="180" ry="120" fill="url(#neb2)" filter="url(#soft)" opacity="0.6"/>
+  <ellipse cx="980" cy="240" rx="160" ry="120" fill="url(#neb2)" filter="url(#soft)" opacity="0.5"/>
+
+  <!-- starfield -->
+  <g>
+    <circle class="st" cx="663" cy="77" r="1.01" fill="#ffffff" style="animation-duration:2.36s;animation-delay:4.11s;--b:0.19"/>
+    <circle class="st" cx="118" cy="259" r="0.78" fill="#ffffff" style="animation-duration:2.48s;animation-delay:2.09s;--b:0.25"/>
+    <circle class="st" cx="1120" cy="95" r="1.15" fill="#a78bfa" style="animation-duration:3.12s;animation-delay:1.54s;--b:0.31"/>
+    <circle class="st" cx="420" cy="40" r="0.85" fill="#ffffff" style="animation-duration:4.02s;animation-delay:0.88s;--b:0.22"/>
+    <circle class="st" cx="810" cy="180" r="1.2" fill="#bae6fd" style="animation-duration:2.88s;animation-delay:2.45s;--b:0.41"/>
+    <circle class="st" cx="310" cy="210" r="0.9" fill="#ffffff" style="animation-duration:3.5s;animation-delay:1.1s;--b:0.3"/>
+    <circle class="st" cx="890" cy="50" r="0.7" fill="#ffffff" style="animation-duration:4.2s;animation-delay:3.2s;--b:0.2"/>
+    <circle class="st" cx="150" cy="80" r="1.1" fill="#c4b5fd" style="animation-duration:2.9s;animation-delay:0.5s;--b:0.35"/>
+    <circle class="st" cx="1050" cy="230" r="0.8" fill="#ffffff" style="animation-duration:3.7s;animation-delay:2.1s;--b:0.25"/>
+    <circle class="st" cx="720" cy="240" r="1.0" fill="#a78bfa" style="animation-duration:3.1s;animation-delay:1.7s;--b:0.3"/>
+    <circle class="st" cx="7" cy="134" r="0.97" fill="#ffffff" style="animation-duration:3.29s;animation-delay:4.92s;--b:0.28"/>
+    <circle class="st" cx="633" cy="111" r="0.96" fill="#ffffff" style="animation-duration:2.2s;animation-delay:1.91s;--b:0.34"/>
+    <circle class="st" cx="411" cy="127" r="1.16" fill="#a78bfa" style="animation-duration:2.22s;animation-delay:1.32s;--b:0.19"/>
+    <circle class="st" cx="85" cy="201" r="0.53" fill="#ffffff" style="animation-duration:3.2s;animation-delay:1.16s;--b:0.38"/>
+  </g>
+
+  <!-- sparks -->
+  <g class="spark" transform="translate(180,90)" style="animation-delay:0.0s">
+    <path d="M0,-7 L1.1,-1.1 L7,0 L1.1,1.1 L0,7 L-1.1,1.1 L-7,0 L-1.1,-1.1 Z" fill="#cbb8ff"/>
+  </g>
+  <g class="spark" transform="translate(1010,70)" style="animation-delay:1.4s">
+    <path d="M0,-6 L1.1,-1.1 L6,0 L1.1,1.1 L0,6 L-1.1,1.1 L-6,0 L-1.1,-1.1 Z" fill="#cbb8ff"/>
+  </g>
+  <g class="spark" transform="translate(250,230)" style="animation-delay:2.1s">
+    <path d="M0,-5 L1.1,-1.1 L5,0 L1.1,1.1 L0,5 L-1.1,1.1 L-5,0 L-1.1,-1.1 Z" fill="#cbb8ff"/>
+  </g>
+  <g class="spark" transform="translate(940,235)" style="animation-delay:0.7s">
+    <path d="M0,-6 L1.1,-1.1 L6,0 L1.1,1.1 L0,6 L-1.1,1.1 L-6,0 L-1.1,-1.1 Z" fill="#cbb8ff"/>
+  </g>
+
+  <!-- shooting stars / meteor shower -->
+  <g transform="translate(140,-50)">
+    <g class="meteor" style="animation-delay:0.0s;animation-duration:4.6s">
+      <g transform="rotate(39) scale(1.0)">
+        <rect x="-90" y="-0.9" width="90" height="1.8" rx="0.9" fill="url(#tail)"/>
+        <circle cx="0" cy="0" r="2.2" fill="#ffffff"/>
+        <circle cx="0" cy="0" r="5" fill="#bae6fd" opacity="0.5" filter="url(#soft2)"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(430,-70)">
+    <g class="meteor" style="animation-delay:1.6s;animation-duration:5.0s">
+      <g transform="rotate(39) scale(0.8)">
+        <rect x="-90" y="-0.9" width="90" height="1.8" rx="0.9" fill="url(#tail)"/>
+        <circle cx="0" cy="0" r="2.2" fill="#ffffff"/>
+        <circle cx="0" cy="0" r="5" fill="#bae6fd" opacity="0.5" filter="url(#soft2)"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(790,-40)">
+    <g class="meteor" style="animation-delay:2.8s;animation-duration:4.4s">
+      <g transform="rotate(39) scale(1.1)">
+        <rect x="-90" y="-0.9" width="90" height="1.8" rx="0.9" fill="url(#tail)"/>
+        <circle cx="0" cy="0" r="2.2" fill="#ffffff"/>
+        <circle cx="0" cy="0" r="5" fill="#bae6fd" opacity="0.5" filter="url(#soft2)"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(1000,-80)">
+    <g class="meteor" style="animation-delay:3.5s;animation-duration:5.4s">
+      <g transform="rotate(39) scale(0.7)">
+        <rect x="-90" y="-0.9" width="90" height="1.8" rx="0.9" fill="url(#tail)"/>
+        <circle cx="0" cy="0" r="2.2" fill="#ffffff"/>
+        <circle cx="0" cy="0" r="5" fill="#bae6fd" opacity="0.5" filter="url(#soft2)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- orbital rings + core orb -->
+  <g class="ring" opacity="0.5">
+    <ellipse cx="600" cy="66" rx="86" ry="26" fill="none" stroke="#87CEEB" stroke-width="1" stroke-opacity="0.6"/>
+  </g>
+  <g class="ring2" opacity="0.45">
+    <ellipse cx="600" cy="66" rx="64" ry="40" fill="none" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.6"/>
+  </g>
+  <circle cx="600" cy="66" r="40" fill="url(#orb)" filter="url(#soft2)" opacity="0.5"/>
+  <circle class="pulse" cx="600" cy="66" r="19" fill="url(#orb)" filter="url(#glow)"/>
+
+  <!-- wordmark: AMANULLA SHAIKH -->
+  <g class="word" filter="url(#glow)">
+    <text x="600" y="172" text-anchor="middle"
+      font-family="'SF Mono','JetBrains Mono','Consolas','Courier New',monospace"
+      font-size="52" font-weight="700" letter-spacing="11" fill="url(#ink)">AMANULLA SHAIKH</text>
+  </g>
+
+  <!-- subtitle -->
+  <g class="sub">
+    <text x="600" y="210" text-anchor="middle"
+      font-family="'SF Mono','JetBrains Mono','Consolas','Courier New',monospace"
+      font-size="16" letter-spacing="5" fill="#c4b5fd" opacity="0.95">FOUNDER  &amp;  FULL-STACK  SYSTEMS  ARCHITECT</text>
+    <text x="600" y="234" text-anchor="middle"
+      font-family="'SF Mono','JetBrains Mono','Consolas','Courier New',monospace"
+      font-size="13" letter-spacing="4" fill="#87CEEB" opacity="0.9">CUTPROOF  &#160;&#183;&#160;  APEX AGENTS  &#160;&#183;&#160;  CREATIVE ENGINEERING</text>
+  </g>
+
+  <!-- glowing divider with sweep -->
+  <g transform="translate(0,262)">
+    <rect x="360" y="0" width="480" height="1.6" fill="url(#hr)"/>
+    <g style="clip-path: inset(0 360px 0 360px);">
+      <rect class="sweep" x="540" y="-2" width="120" height="5" rx="2.5" fill="#bae6fd" filter="url(#soft2)" opacity="0.8"/>
+    </g>
+  </g>
+  <text x="600" y="290" text-anchor="middle"
+    font-family="'SF Mono','JetBrains Mono','Consolas','Courier New',monospace"
+    font-size="11.5" letter-spacing="3" fill="#6b7280">building for the future &#160;&#8901;&#160; amanulla-portfolio.vercel.app</text>
+</svg>
