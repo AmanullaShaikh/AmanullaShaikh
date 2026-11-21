@@ -126,7 +126,7 @@ Hardened pre-commit gates, AST code analyzers, secret leak interceptors, and mul
 
 <p align="center">
   <a href="https://github.com/AmanullaShaikh">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanullaShaikh&theme=tokyonight&hide_border=true&border_radius=8&background=0d0221" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=AmanullaShaikh&theme=tokyonight&hide_border=true&border_radius=8&background=0d0221&timezone=Asia/Kolkata&date_format=M%20j%2C%20Y" alt="GitHub Streak Stats" />
   </a>
 </p>
 
