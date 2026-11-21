@@ -3,14 +3,14 @@
 <!-- HERO BANNER (custom animated SVG) -->
 <p align="center">
   <a href="https://amanulla-portfolio.vercel.app">
-    <img src="assets/hero-banner.svg" width="100%" alt="Amanulla Shaikh - Founder &amp; Full-Stack Systems Architect · CutProof · Apex Agents"/>
+    <img src="assets/hero-banner.svg" width="100%" alt="Amanulla Shaikh - Founder &amp; Full-Stack Systems Architect · CutProof · Aveyx"/>
   </a>
 </p>
 
 <!-- ANIMATED TYPING SUBTITLE -->
 <p align="center">
   <a href="https://amanulla-portfolio.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=860&height=40&lines=Founder+of+CutProof+%F0%9F%8E%AC+(Video+Review+Platform+for+Editors);Author+of+Apex+Agents+%E2%9A%A1+(Sovereign+AI+Engineering+Agency);Architecting+60fps+React%2C+TypeScript+%26+Scalable+Cloud+Systems;Crafting+zero-slop+autonomous+developer+tools+%F0%9F%9B%A0%EF%B8%8F" alt="typing tagline"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=860&height=40&lines=Founder+of+CutProof+%F0%9F%8E%AC+(Video+Review+Platform+for+Editors);Author+of+Aveyx+%E2%9A%A1+(Developer+Tooling+%26+AST+Harness);Architecting+60fps+React%2C+TypeScript+%26+Scalable+Cloud+Systems;Crafting+zero-slop+autonomous+developer+tools+%F0%9F%9B%A0%EF%B8%8F" alt="typing tagline"/>
   </a>
 </p>
 
@@ -32,13 +32,13 @@
 
 Full-Stack Software Engineer &amp; Founder building software where $`\textcolor{#a78bfa}{\textsf{Media Processing}}`$,<br/>
 $`\textcolor{#87ceeb}{\textsf{Autonomous AI Systems}}`$, and scalable web architectures meet the real world.<br/>
-Founder of $`\textcolor{#a78bfa}{\textsf{CutProof}}`$ &nbsp;·&nbsp; Author of $`\textcolor{#87ceeb}{\textsf{Apex Agents}}`$ (live on global NPM).<br/>
+Founder of $`\textcolor{#a78bfa}{\textsf{CutProof}}`$ &nbsp;·&nbsp; Author of $`\textcolor{#87ceeb}{\textsf{Aveyx}}`$ (live on global NPM).<br/>
 Obsessed with 60fps GPU-composited UI, sub-50ms edge APIs, and zero-slop engineering discipline.
 
 </div>
 
 <p align="center">
-  <code>🌍 India</code> &nbsp; <code>🚀 Founder @ CutProof</code> &nbsp; <code>⚡ Creator @ Apex Agents</code> &nbsp; <code>💻 Full-Stack Systems Architect</code>
+  <code>🌍 India</code> &nbsp; <code>🚀 Founder @ CutProof</code> &nbsp; <code>⚡ Creator @ Aveyx</code> &nbsp; <code>💻 Full-Stack Systems Architect</code>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="─────"/></p>
@@ -61,13 +61,13 @@ High-performance video review, frame-accurate annotation, and client approval po
 </td>
 <td width="50%" valign="top">
 
-#### ⚡ &nbsp;Apex Agents
-<sub>**Creator &amp; Lead Architect · Sovereign AI Engineering Agency**</sub><br/>
-Industrial execution harness featuring **Babel AST context compaction** (70-88% token shrink), dependency cycle detection, pre-commit secret leak sentinels, and 38 specialist protocols.
+#### ⚡ &nbsp;Aveyx
+<sub>**Creator &amp; Lead Architect · Developer Tooling &amp; AST Harness**</sub><br/>
+Industrial execution harness featuring **Babel AST context compaction** (70-88% token shrink), dependency cycle detection, pre-commit secret leak sentinels, and 32 specialist protocols.
 
-<img src="https://img.shields.io/badge/-Node.js-0d0221?style=flat-square&logo=nodedotjs&logoColor=87CEEB"/> <img src="https://img.shields.io/badge/-Babel_AST-0d0221?style=flat-square&logo=babel&logoColor=87CEEB"/> <img src="https://img.shields.io/badge/-NPM_v2.0.1-0d0221?style=flat-square&logo=npm&logoColor=87CEEB"/>
+<img src="https://img.shields.io/badge/-Node.js-0d0221?style=flat-square&logo=nodedotjs&logoColor=87CEEB"/> <img src="https://img.shields.io/badge/-Babel_AST-0d0221?style=flat-square&logo=babel&logoColor=87CEEB"/> <img src="https://img.shields.io/badge/-NPM_v3.0.1-0d0221?style=flat-square&logo=npm&logoColor=87CEEB"/>
 
-<sup>📦 `npx apex-agents init` · 100/100 Benchmark Grade A+</sup>
+<sup>📦 `npx aveyx init` · 100/100 Benchmark Grade A+</sup>
 
 </td>
 </tr>
